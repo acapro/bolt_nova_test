@@ -1,0 +1,9 @@
+@reference "../../app.css";
+
+.layout {
+  @apply flex min-h-full;
+
+  main {
+    @apply bg-level-10 grow flex flex-col;
+  }
+}

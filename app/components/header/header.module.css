@@ -1,0 +1,24 @@
+@reference "../../app.css";
+
+.header {
+  @apply flex flex-col items-start px-6 bg-background;
+  @apply border-b border-gray-100;
+}
+
+.content {
+  @apply py-4;
+}
+
+.header h1 {
+  @apply block;
+  font-size: x-large;
+}
+
+.header small {
+  @apply block font-normal leading-4;
+  font-size: small;
+}
+
+:global(.dark) .header {
+  @apply border-gray-600;
+}

@@ -1,0 +1,5 @@
+@reference "../../app.css";
+
+.rounded-container {
+  @apply flex flex-col bg-level-20 m-6 p-6 grow rounded-3xl;
+}

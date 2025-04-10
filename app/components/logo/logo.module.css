@@ -1,0 +1,10 @@
+@reference "../../app.css";
+
+.logo {
+  @apply flex gap-3 p-4 pl-1 font-medium;
+  font-size: 2rem;
+}
+
+.title {
+  @apply pb-[6px];
+}

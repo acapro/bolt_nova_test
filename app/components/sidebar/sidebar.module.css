@@ -1,0 +1,23 @@
+@reference "../../app.css";
+
+.sidebar {
+  @apply basis-55 p-4 flex flex-col;
+  @apply border-r border-r-gray-100 h-dvh;
+  position: sticky;
+  top: 0;
+}
+
+.sidebar ul {
+  @apply flex flex-1 flex-col gap-y-0.5 grow;
+}
+
+.sidebar hr {
+  @apply border-gray-100 dark:border-gray-600 py-1;
+}
+
+:global(.dark) .sidebar {
+  @apply border-gray-600;
+  hr {
+    @apply border-gray-600;
+  }
+}

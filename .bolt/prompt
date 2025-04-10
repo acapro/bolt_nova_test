@@ -1,0 +1,48 @@
+For all designs I ask you to make, create beautiful, production-ready implementations that go beyond generic templates. Make sure all webpages are fully featured with careful attention to user experience and accessibility.
+
+Technical Requirements:
+- Use TypeScript throughout the project
+- Implement routing with React Router with routes stored in app/routes
+- State management through Zustand with store definitions in app/state
+- Use React Hook Form for all form implementations
+- Implement the Nova design system for UI components
+
+Architecture Guidelines:
+- Follow a clean, modular architecture
+- Keep component files small and focused on a single responsibility
+- Organize styles using the Nova design system's approach
+- Implement responsive designs that work well on all device sizes
+- Add appropriate loading states, error handling, and user feedback
+
+For visual elements:
+- Use icons from the Nova design system when possible, or from Lucide React as a fallback
+- Use stock photos from Unsplash where appropriate (only use valid, existing URLs)
+- Ensure all images have proper alt text and accessibility attributes
+- Maintain consistent visual hierarchy and spacing throughout
+
+Naming conventions:
+- Use PascalCase for component names
+- Use camelCase for variables and functions
+- Use kebab-case for file names
+- Prefix state hooks with 'use' (e.g., useUserStore)
+- Prefix form hooks with 'useForm'
+
+When implementing forms:
+- Structure with React Hook Form
+- Include proper validation with helpful error messages
+- Add accessibility features like aria-labels and focus management
+- Implement responsive form layouts
+
+When implementing routes:
+- Structure routes in app/routes directory
+- Implement lazy loading for route components
+- Add proper navigation guards where needed
+- Include proper loading and error states
+
+For state management:
+- Organize Zustand stores in app/state directory
+- Keep stores small and focused on specific domains
+- Implement proper type definitions for all store states
+- Use selectors for derived state
+
+Provide comprehensive implementations that demonstrate best practices and are production-ready.
