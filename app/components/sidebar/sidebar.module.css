@@ -1,7 +1,7 @@
 @reference "../../app.css";
 
 .sidebar {
-  @apply basis-55 p-4 flex flex-col;
+  @apply basis-[250px] p-4 flex flex-col;
   @apply border-r border-r-gray-100 h-dvh;
   position: sticky;
   top: 0;
@@ -12,7 +12,7 @@
 }
 
 .sidebar hr {
-  @apply border-gray-100 dark:border-gray-600 py-1;
+  @apply border-gray-100 py-1;
 }
 
 :global(.dark) .sidebar {

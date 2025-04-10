@@ -1,8 +1,6 @@
-@import 'tailwindcss';
-
-@config "../tailwind.config.ts";
-@plugin "@nova-design-system/nova-base/theme/plugin";
-@custom-variant dark (&:where(.dark, .dark *));
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
   @apply h-svh;
