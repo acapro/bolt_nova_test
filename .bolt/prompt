@@ -38,6 +38,7 @@ When implementing routes:
 - Implement lazy loading for route components
 - Add proper navigation guards where needed
 - Include proper loading and error states
+- Update the app/routes.ts files to include all routes
 
 For state management:
 - Organize Zustand stores in app/state directory

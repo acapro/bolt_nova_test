@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@faker-js/faker": "^9.6.0",
-    "@nova-design-system/nova-base": "3.0.0-beta.44",
-    "@nova-design-system/nova-react": "3.0.0-beta.44",
-    "@nova-design-system/nova-webcomponents": "3.0.0-beta.44",
+    "@nova-design-system/nova-base": "3.0.0",
+    "@nova-design-system/nova-react": "3.0.0",
+    "@nova-design-system/nova-webcomponents": "3.0.0",
     "@react-router/node": "^7.3.0",
     "@react-router/serve": "^7.3.0",
     "clsx": "2.1.1",
