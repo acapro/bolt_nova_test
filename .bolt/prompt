@@ -39,6 +39,7 @@ When implementing routes:
 - Add proper navigation guards where needed
 - Include proper loading and error states
 - Update the app/routes.ts files to include all routes
+- Remember to add root routes to the sidebar at app/components/sidebar/sidebar.tsx
 
 For state management:
 - Organize Zustand stores in app/state directory
